@@ -1,6 +1,6 @@
 # Medical OCR Data Extraction -- Python
 
-I have worked on this project as part of the [CodeBasics Power BI 2.0 Course](https://codebasics.io/courses/python-for-beginner-and-intermediate-learners)
+I have worked on this project as part of the [CodeBasics Python Course](https://codebasics.io/courses/python-for-beginner-and-intermediate-learners)
 
 ## Problem Statement
 
