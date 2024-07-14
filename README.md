@@ -8,9 +8,9 @@ Stark Insurance has outsourced AtliQ Data Systems to extract data from medical d
 
 ## Solution Approach
 
-The new feature will read and extract key data from the medical documents automatically. Still there may be a few erros here and there, so the employers will now check the extracted and correct it if needed. But the overall work done by each employee will be reduced greatly.
+The new feature will read and extract key data from the medical documents automatically. Still there may be a few errors here and there, so the employers will now check the extracted and correct it if needed. But the overall work done by each employee will be reduced greatly.
 
-We'll be using the Python programming language and its various libraries to implement the solution.
+We'll be using the Python programming language and its various libraries to implement the solution. Test Driven Development was used to write this code. The code and outputs were checked using the Pytest module during development
 
 
 ## Steps in Implementing the Feature
@@ -18,6 +18,11 @@ We'll be using the Python programming language and its various libraries to impl
 - Pre-Processing Images
 - Saving Text from Images
 - Extracting Data from Text
+- Front-End Implementation
+
+
+<img src = "https://github.com/tahasarfraz783/Medical-OCR-Data-Extraction--Python/blob/main/extras/solution_process.png" class = "center">
+
 
 ## Converting PDF to Image  
 We use the pdf2image library to convert the sent pdf files in to png format.
@@ -28,5 +33,13 @@ The OpenCV library allowed us to use adaptive thresholding on each of the images
 ## Saving Text from Images
 We use the pytesseract library to read the data from the processed images
 
-##Extracting Data from Text
+## Extracting Data from Text
 By using Regular Expressions (regex) we can extract the required data from the text. Since the format for each type of file will be different, we will use different regex code to extract data for each of the document types. Then we can use Classes and Methods for each document type to store the data in a dictionary.
+
+## Front-End Implementation
+FastAPI is used to host the server for the project, and for now Postman is being used as the frontend and to see how server responds to requests.
+
+
+# Conclusion
+This new feature was implemented into the AtliQ Extract Pro software, and the few errors in extracting the data will be corrected by the employees. Despite these errors, this new feature can help save each employee upto 30 seconds for extracting data from each document, greatly increasing the efficiency of the project, since not only will be lesser delays, but also a lesser errors and lesser costs due to the combination of automated and manual work.
+
