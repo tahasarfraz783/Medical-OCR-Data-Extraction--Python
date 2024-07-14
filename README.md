@@ -41,5 +41,4 @@ FastAPI is used to host the server for the project, and for now Postman is being
 
 
 # Conclusion
-This new feature was implemented into the AtliQ Extract Pro software, and the few errors in extracting the data will be corrected by the employees. Despite these errors, this new feature can help save each employee upto 30 seconds for extracting data from each document, greatly increasing the efficiency of the project, since not only will be lesser delays, but also a lesser errors and lesser costs due to the combination of automated and manual work.
-
+This new feature was implemented into the AtliQ Extract Pro software, and the few errors in extracting the data will be corrected by the employees. Despite these errors, this new feature can help save each employee upto 30 seconds for extracting data from each document. This combination of automated and manual work will greatly increase the efficiency of the project, reducing the costs, delays, and errors overall.
