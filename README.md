@@ -8,7 +8,7 @@ Stark Insurance has outsourced AtliQ Data Systems to extract data from medical d
 
 ## Solution Approach
 
-The new feature will read and extract key data from the medical documents automatically. Still there may be a few errors here and there, so the employers will now check the extracted and correct it if needed. But the overall work done by each employee will be reduced greatly.
+The new feature will read and extract key data from the medical documents automatically. Still there may be a few errors here and there, so the employers will now check the extracted information and correct it if needed. But the overall work done by each employee will be reduced greatly.
 
 We'll be using the Python programming language and its various libraries to implement the solution. Test Driven Development was used to write this code. The code and outputs were checked using the Pytest module during development
 
